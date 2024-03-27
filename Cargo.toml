@@ -1,0 +1,15 @@
+[package]
+name = "rust_port_listener"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+tokio = { version = "1.36.0", features = ["full", "signal", "time", "net"] }
+dotenv = "0.15.0"
+log = "0.4.20"
+simple_logger = "4.3.3"
+simplelog="0.12.1"
+serde = "1.0.196"
+serde_derive = "1.0.196"
+tokio-stream = "0.1.14"
+nix = { version = "0.27.0", features = ["user"]}
