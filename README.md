@@ -61,7 +61,7 @@ To get the application running on your system, follow these steps:
 
 1.  **Clone the Repository**
 
-    -   Use `git clone https://github.com/SpiffyFoxOne/OT-early-warning-system.git` and navigate into the project directory with `cd <project-directory>`.
+    -   Use `git clone https://github.com/SpiffyFoxOne/OT-early-warning-system.git` and navigate into the project directory with `cd OT-early-warning-system`.
 2.  **Setup `.env` File**
 
     -   Copy the `env.example` to a new `.env` file and adjust the values according to your needs with `cp env.example .env`.
